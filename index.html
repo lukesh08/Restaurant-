@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Route | Premium Restaurant</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        <i class="fa-solid fa-utensils"></i>
+        Spice Route
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#home" class="active">Home</a></li>
+
+        <li><a href="#menu">Menu</a></li>
+
+        <li><a href="#gallery">Gallery</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <div class="nav-icons">
+
+        <button id="themeToggle">
+
+            <i class="fa-solid fa-moon"></i>
+
+        </button>
+
+    </div>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>
+Experience Luxury Dining
+</h1>
+
+<p>
+
+Taste authentic flavours from around the world with premium ambience and unforgettable hospitality.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#menu" class="btn">
+
+Explore Menu
+
+</a>
+
+<a href="#reservation" class="btn2">
+
+Book Table
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= RESERVATION ================= -->
+
+<section id="reservation" class="reservation">
+
+<div class="reservation-container">
+
+<div class="left">
+
+<h2>
+
+Reserve Your Table
+
+</h2>
+
+<p>
+
+Reserve your favourite seat in just a few seconds and enjoy a wonderful dining experience with your family and friends.
+
+</p>
+
+<ul>
+
+<li>
+
+<i class="fa-solid fa-circle-check"></i>
+
+Premium Dining
+
+</li>
+
+<li>
+
+<i class="fa-solid fa-circle-check"></i>
+
+Live Music Every Weekend
+
+</li>
+
+<li>
+
+<i class="fa-solid fa-circle-check"></i>
+
+Free Parking
+
+</li>
+
+<li>
+
+<i class="fa-solid fa-circle-check"></i>
+
+100% Fresh Ingredients
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="right">
+
+<form id="reservationForm">
+
+<div class="input-box">
+
+<input
+type="text"
+id="name"
+placeholder="Full Name"
+required>
+
+</div>
+
+<div class="input-box">
+
+<input
+type="email"
+id="email"
+placeholder="Email Address"
+required>
+
+</div>
+
+<div class="input-box">
+
+<input
+type="tel"
+id="phone"
+placeholder="Phone Number"
+required>
+
+</div>
+
+<div class="input-box">
+
+<input
+type="date"
+id="date"
+required>
+
+</div>
+
+<div class="input-box">
+
+<input
+type="time"
+id="time"
+required>
+
+</div>
+
+<div class="input-box">
+
+<select id="guests">
+
+<option>
+
+Number Of Guests
+
+</option>
+
+<option>
+
+1 Guest
+
+</option>
+
+<option>
+
+2 Guests
+
+</option>
+
+<option>
+
+3 Guests
+
+</option>
+
+<option>
+
+4 Guests
+
+</option>
+
+<option>
+
+5+ Guests
+
+</option>
+
+</select>
+
+</div>
+
+<button class="reserve-btn">
+
+Reserve Now
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= MENU SECTION START ================= -->
+
+<section id="menu" class="menu">
+
+<div class="heading">
+
+<h2>
+
+Our Special Menu
+
+</h2>
+
+<p>
+
+Freshly prepared dishes made with love.
+
+</p>
+
+</div>
+
+<div class="menu-container">
+
+        <!-- Indian Cuisine -->
+
+    <div class="menu-category">
+
+        <h3>Indian Cuisine</h3>
+
+        <div class="menu-grid">
+
+            <div class="menu-card">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiNm646dxRmz1Lq2vWTndeLYUJRjF08UUBFg&s" alt="Butter Chicken">
+           
+                <div class="menu-content">
+
+                    <h4>Butter Chicken</h4>
+
+                    <p>
+                        Tender chicken cooked in creamy tomato gravy served
+                        with butter naan.
+                    </p>
+
+                    <div class="price-row">
+
+                        <span>₹450</span>
+
+                        <button>Order</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="menu-card">
+
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3wloqqn1yny5Nfd7L2a1s3JE-6J5JfXCwhA&s" alt="Paneer Makhani">
+                <div class="menu-content">
+
+                    <h4>Paneer Makhani</h4>
+
+                    <p>
+                        Soft paneer cubes cooked in rich makhani gravy with
+                        lachha paratha.
+                    </p>
+
+                    <div class="price-row">
+
+                        <span>₹380</span>
+
+                        <button>Order</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="menu-card">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVnz8iumsd4T5A5xNn-c9fQLs5nrCE6c39uQ&s" alt="Dal Bati">
+
+                <div class="menu-content">
+
+                    <h4>Dal Bati Churma</h4>
+
+                    <p>
+
+                        Traditional Rajasthani speciality served with ghee.
+
+                    </p>
+
+                    <div class="price-row">
+
+                        <span>₹320</span>
+
+                        <button>Order</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Italian Cuisine -->
+
+    <div class="menu-category">
+
+        <h3>Italian Cuisine</h3>
+
+        <div class="menu-grid">
+
+            <div class="menu-card">
+
+                <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2023-12-pasta-alla-boscaiola%2Fpasta-alla-boscaiola-727" alt="Pasta">
+
+                <div class="menu-content">
+
+                    <h4>Creamy Alfredo Pasta</h4>
+
+                    <p>
+
+                        Authentic Italian pasta served with creamy cheese sauce.
+
+                    </p>
+
+                    <div class="price-row">
+
+                        <span>₹420</span>
+
+                        <button>Order</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="menu-card">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLl5i7jYac71xfH9yHzfyuUbj18flp6d7Tkg&s" alt="Pizza">
+
+                <div class="menu-content">
+
+                    <h4>Wood Fired Pizza</h4>
+
+                    <p>
+
+                        Crispy Italian pizza with mozzarella cheese.
+
+                    </p>
+
+                    <div class="price-row">
+
+                        <span>₹520</span>
+
+                        <button>Order</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="menu-card">
+
+                <img src="https://www.sandravalvassori.com/wp-content/uploads/2022/04/Tiramisu-11484.jpg" alt="Tiramisu">
+
+                <div class="menu-content">
+
+                    <h4>Tiramisu</h4>
+
+                    <p>
+
+                        Traditional Italian coffee dessert.
+
+                    </p>
+
+                    <div class="price-row">
+
+                        <span>₹280</span>
+
+                        <button>Order</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- ================= GALLERY ================= -->
+
+<section id="gallery" class="gallery">
+
+<div class="heading">
+
+<h2>
+
+Our Gallery
+
+</h2>
+
+<p>
+
+Take a look at our beautiful ambience.
+
+</p>
+
+</div>
+
+<div class="gallery-grid">
+
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600">
+<img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600">
+<img src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=600">
+<img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=600">
+<img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600">
+<img src="https://images.unsplash.com/photo-1592861956120-e524fc739696?w=600">
+<img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=600">
+<img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=600">
+
+</div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about">
+
+<div class="about-image">
+
+<img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=700" alt="Restaurant">
+
+</div>
+
+<div class="about-content">
+
+<h2>
+
+About Spice Route
+
+</h2>
+
+<p>
+
+Welcome to Spice Route where tradition meets luxury. Every dish is prepared using premium ingredients by experienced chefs to deliver unforgettable flavours.
+
+</p>
+
+<div class="features">
+
+<div>
+
+<i class="fa-solid fa-star"></i>
+
+Premium Dining
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-bowl-food"></i>
+
+Fresh Ingredients
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-user-chef"></i>
+
+Expert Chefs
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-mug-hot"></i>
+
+Luxury Ambience
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+
+<section id="contact" class="contact">
+
+    <div class="heading">
+
+        <h2>Contact Us</h2>
+
+        <p>We would love to hear from you.</p>
+
+    </div>
+
+    <div class="contact-container">
+
+        <!-- Feedback -->
+
+        <div class="feedback-box">
+
+            <h3>Share Your Feedback</h3>
+
+            <form id="feedbackForm">
+
+                <input
+                type="text"
+                placeholder="Your Name"
+                required>
+
+                <input
+                type="email"
+                placeholder="Email Address"
+                required>
+
+                <div class="rating">
+
+                    <span class="star" data-rating="1">★</span>
+                    <span class="star" data-rating="2">★</span>
+                    <span class="star" data-rating="3">★</span>
+                    <span class="star" data-rating="4">★</span>
+                    <span class="star" data-rating="5">★</span>
+
+                </div>
+
+                <input
+                type="hidden"
+                id="ratingValue">
+
+                <textarea
+                rows="6"
+                placeholder="Write your experience..."
+                required></textarea>
+
+                <button class="submit-btn">
+
+                    Submit Feedback
+
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <!-- Contact Details -->
+
+        <div class="contact-info">
+
+            <h3>Visit Our Restaurant</h3>
+
+            <div class="info">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <span>
+
+                    123 MG Road, Indore,
+                    Madhya Pradesh
+
+                </span>
+
+            </div>
+
+            <div class="info">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <span>
+
+                    +91 9876543210
+
+                </span>
+
+            </div>
+
+            <div class="info">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <span>
+
+                    info@spiceroute.com
+
+                </span>
+
+            </div>
+
+            <div class="info">
+
+                <i class="fa-solid fa-clock"></i>
+
+                <span>
+
+                    Mon - Sun
+                    11 AM - 11 PM
+
+                </span>
+
+            </div>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29766.262886193076!2d75.85687!3d22.719568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd5588d91d87%3A0xba8c854ed1629a89!2sMG%20Road%2C%20Indore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1234567890"
+                width="100%"
+                height="300"
+                style="border:0;border-radius:15px;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h2>
+
+                Spice Route
+
+            </h2>
+
+            <p>
+
+                Where every meal becomes a memory.
+                Premium dining experience with authentic flavours.
+
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>
+
+                Quick Links
+
+            </h3>
+
+            <a href="#home">Home</a>
+
+            <a href="#menu">Menu</a>
+
+            <a href="#gallery">Gallery</a>
+
+            <a href="#about">About</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>
+
+                Follow Us
+
+            </h3>
+
+            <div class="social">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-twitter"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 Spice Route |
+        Designed by Lukesh
+
+    </div>
+
+</footer>
+
+
+
+<!-- SUCCESS MODAL -->
+
+<div
+id="successModal"
+class="modal">
+
+<div class="modal-content">
+
+<span
+class="close-modal">
+
+&times;
+
+</span>
+
+<h2>
+
+Reservation Confirmed 🎉
+
+</h2>
+
+<p
+id="modalMessage">
+
+Thank you for choosing Spice Route.
+
+</p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
